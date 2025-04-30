@@ -9,6 +9,7 @@ pipeline {
             sh "npm install"
         }
     }
+    
     stage('Test') {
         steps {
           // Run the ReactJS tests
