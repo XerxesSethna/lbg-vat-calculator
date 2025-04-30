@@ -9,10 +9,10 @@ pipeline {
             sh "npm install"
         }
     }
-    
+
     stage('Test') {
         steps {
-          // Run the ReactJS tests
+          // Run the ReactJS tests - actually there's only one test
           sh "npm test"
         }
     }
